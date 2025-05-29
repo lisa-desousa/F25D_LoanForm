@@ -13,19 +13,19 @@ export default function LoanForm() {
   const [refundTime, setRefundTime] = useState("");
   const [comment, setComment] = useState("");
 
-  const Application = {
-    name,
-    phone,
-    age,
-    employed,
-    salary,
-    loanAmount,
-    reason,
-    refundTime,
-    comment,
-  };
-
   function handleSubmit() {
+    const Application = {
+      name,
+      phone,
+      age,
+      employed,
+      salary,
+      loanAmount,
+      reason,
+      refundTime,
+      comment,
+    };
+
     if (!Application.name || !Application.phone || !Application.age) {
       alert("Name, phone, and age must be filled in.");
     } else {
