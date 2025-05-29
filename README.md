@@ -1,12 +1,11 @@
-# React + Vite
+# Loan Form for YH Borås
+## Class F25D
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The application is live at: (https://lisa-desousa.github.io/F25D_LoanForm/)
 
-Currently, two official plugins are available:
+### Instructions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Name, age and phone number must be filled in, if they are not an alert will pop up and submitting the form is not possible.
+When clicking "send" an object with all the information that was filled in can be seen in the console.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Thanks for looking at my project!
