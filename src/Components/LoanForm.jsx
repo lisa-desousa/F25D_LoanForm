@@ -6,7 +6,7 @@ export default function LoanForm() {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [age, setAge] = useState("");
-  const [employed, setEmployed] = useState(false);
+  const [employed, setEmployed] = useState("");
   const [salary, setSalary] = useState("");
   const [loanAmount, setLoanAmount] = useState("");
   const [reason, setReason] = useState("");
@@ -68,7 +68,7 @@ export default function LoanForm() {
           type="checkbox"
           id="employed"
           value={employed}
-          onChange={(e) => setEmployed(e.target.value)}
+          onChange={(e) => setEmployed(e.target.checked)}
         ></input>
 
         <label htmlFor="salary">Your salary:</label>
